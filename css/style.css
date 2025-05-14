@@ -1,0 +1,176 @@
+body {
+    font-family: 'Garamond', serif;
+    background-image: url('img/platon.png');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    color: rgb(255, 255, 255);
+    text-align: center;
+    margin: 0;
+    padding: 0;   
+}
+.int img{
+    height: 100px;
+    width: 100px;
+    float: right;
+    margin-top: -90px;
+}
+li {
+    text-align: justify;
+}
+ul{
+   text-align: justify; 
+}
+p {
+    text-align: justify;
+}
+header {
+ background-color: rgb(139, 94, 60, 0.5);
+    padding: 20px;
+    font-size: 24px;
+    font-weight: bold;
+    border-bottom: 5px solid rgb(139, 94, 60);
+}
+#encabezado .menu {
+    width: 100px;
+    float: right;
+    margin-top: 10px;
+    text-align: center;
+    border: 3px solid rgb(139, 94, 60,0.5);
+    margin: 20px auto;
+    font-size: 25px;
+    position: relative;
+    background: rgb(193, 154, 125,0.5);
+    display: table;
+    height: auto;
+    transition: height 0.3s ease-in-out, padding-bottom 0.3s ease-in-out;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+li {
+    padding: 10px;
+    margin-bottom: 5px;
+    background-color: rgb(139, 94, 60, 0.5);
+    border-radius: 5px;
+    display: block;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+nav li {
+    line-height: 2.5rem;
+    position: relative;
+}
+
+nav a {
+    color: rgb(255, 255, 255);
+    display: block;
+    text-decoration: none;
+    transition: 0.4s;
+    padding: 10px 20px;
+}
+
+nav a:hover {
+    background: rgba(0, 0, 0, 0.5);
+}
+
+nav li ul {
+    float: right;
+    font-size: 17px;
+    max-height: 0;
+    overflow: hidden;
+    transition: max-height 0.3s ease-in-out, margin-bottom 0.3s ease-in-out;
+}
+
+nav li:hover > ul {
+    max-height: 300px;
+    overflow: visible;
+}
+
+.menu:hover {
+    height: auto;
+    padding-bottom: 20px; 
+}
+
+.menu > li {
+    float: left;
+}
+
+nav li li {
+    background: rgba(139, 94, 60, 0.5);
+    max-height: 0;
+    overflow: hidden;
+    transition: all 0.1s;
+    width: 155px;
+}
+
+nav li:hover > ul > li {
+    max-height: 500px;
+    overflow: visible;
+}
+
+.menu > li > ul {
+    top: 100%;
+}
+
+.menu ul ul {
+    left: 100%;
+    top: 0;
+}
+.intro {
+    background-color: rgb(139, 94, 60, 0.5);
+    padding: 50px;
+    border: 3px solid #8b5e3c;
+    margin: 50px auto;
+    width: 67%;
+    box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.3);
+}
+.contenedor {
+    text-align: left;
+    
+}
+img {
+    position: relative;
+    left: 10px;
+    height: 200px;
+    width: 300px;
+}
+footer {
+    background-color: rgba(139, 94, 60, 0.9);
+    color: #000000;
+    padding: 10px;
+    position:relative;
+    width: 98.5%;
+    margin-top: 85px;
+}
+img {
+    transition: transform 0.2s;
+}
+img:hover {
+    transform: scale(1.1);
+}
+img{
+    height: 200px;
+    width: 300px;
+}
+img {
+    float: left;
+    margin-right: 10px;
+}
+ul {
+    overflow: hidden;
+}
+@media (max-width: 768px) {
+    form {
+        padding: 10px;
+    }
+}
